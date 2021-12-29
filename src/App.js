@@ -22,7 +22,7 @@ const hello= ()=>{
 }
   return (
     <div className="App" style={{backgroundColor: bg}}>
-    <h1>Reacts Hooks</h1> <br />
+    
     <h1>Hello {fullname}</h1>
     <input placeholder='Enter your Name' type="text"  onChange={val}  value={name}  />
     <br />
